@@ -1,0 +1,73 @@
+@media (max-width:768px) {
+    html{
+        font-size: 80%;
+    }
+}
+@media (min-width:769px) {
+    .features-section .feature{
+        width: 30%;
+        height: 280px;
+        margin-left: 2% ;
+    }
+    .download-section .col{
+        width: 30%;
+    }
+    .download-section .download-img{
+        width: 22%;
+    }
+    .about-section{
+        height: 140vh;
+    }
+    .about-section .container{
+        background: transparent;
+    }
+    .about-section .container p{
+        width: 40%;
+        text-align: left;
+    }
+    .about-section .container p:nth-child(4){
+        margin-top: 300px;   
+    }
+    .about-section .container p:nth-child(2){
+        float: right;
+    }
+    .about-section .container button{
+        transform: translateY(400px);
+    }
+    .subscribe-section input{
+        width: 50%;
+        margin-right: 20px;
+    }
+    .subscribe-section button{
+        width: 20%;
+    }
+    .testimonial-section{
+        padding: 50px 100px;
+    }
+    .contact-section{
+        padding: 50px 100px;
+    }
+    .contact-section div{
+        width: 45%;
+        margin-right: 20px;
+    }
+    .contact-section img{
+        width: 50%;
+    }
+    footer li{
+        width: 25%;
+    }
+    footer li input{
+        width: 80%;
+        margin: 5px 0;
+        float: left;
+    }
+    footer li button{
+        width: 60%;
+        float: left;
+    }
+    footer hr{
+        margin-top: 50px;
+    }
+
+}
